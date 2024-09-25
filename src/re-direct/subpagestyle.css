@@ -1,0 +1,32 @@
+.heading{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: 222831 ;
+    text-shadow: 0 0 3px #686868, 0 0 3px #686868;
+
+}
+
+.sbut{
+    width: 20%;
+    height: 6%;
+    border-color: rgb(57, 62, 70) ;
+    background-color: rgb(57, 62, 70);
+    box-shadow: 1px 1px 10px rgb(48, 48, 48);
+    color: rgb(238, 238, 238);
+
+}
+
+.sbut:hover{
+
+    border-color: #00ADB5 ;
+    background-color: #00ADB5;
+    box-shadow: 2px 2px 15px rgb(48, 48, 48);
+    color: rgb(48, 48, 48);
+    transition: 0.4s;
+}
+
+.but-class{
+    padding-top: 70px;
+    
+}

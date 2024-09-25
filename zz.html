@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sit continue</title>
+    <style>
+      .main {
+        display: flex;
+        font-family: roboto, arial;
+        font-style: inherit;
+      }
+      .leftsection {
+        width: 896px;
+        background-color: rgb(22, 45, 64);
+        color: white;
+        height: 1000px;
+      }
+      .imgandsit {
+        display: flex;
+      }
+      .logoimg {
+        width: 100px;
+        border-radius: 60px;
+        margin-left: 45px;
+        margin-top: 40px;
+        cursor: pointer;
+      }
+      .sit {
+        font-size: 31px;
+        word-wrap: break-word;
+        padding-top: 55px;
+        padding-left: 20px;
+        cursor: pointer;
+      }
+      .welcome {
+        font-size: 24px;
+        font-weight: 500;
+        padding-top: 100px;
+        padding-bottom: 60px;
+        padding-left: 45px;
+        cursor: pointer;
+        font-family: raleway, Arial, Helvetica, sans-serif;
+      }
+      .noticeboard {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-radius: 5px;
+        border: solid;
+        height: 288px;
+        border-left-color: rgb(197, 38, 38);
+        border-left-width: 7px;
+        border-radius: 10px;
+      }
+      .noticehead {
+        padding-top: 30px;
+        padding-bottom: 27px;
+        padding-left: 30px;
+        font-size: 25px;
+        cursor: pointer;
+      }
+      .notice {
+        border: solid;
+        border-width: 1px;
+        height: 175px;
+        margin: 0px 30px 0px 30px;
+        border-color: rgb(236, 225, 225);
+      }
+      .rightsection {
+        background-color: rgb(181, 32, 32);
+        color: white;
+        height: 1000px;
+        flex: 1;
+      }
+      .click {
+        padding-left: 40px;
+        padding-top: 42px;
+        font-size: 17px;
+        text-shadow: 5px 5px 20px red;
+        cursor: pointer;
+      }
+      .loginfull {
+        margin-top: 170px;
+        border: solid;
+        margin-left: 75px;
+        margin-right: 75px;
+        height: 360px;
+        box-shadow: 1px 1px 7px rgb(102, 58, 58);
+        border-color: rgb(181, 32, 32);
+        border-left: 2px;
+        padding-top: 52px;
+      }
+      .login {
+        padding-left: 50px;
+        font-size: 25px;
+      }
+      .username {
+        padding-left: 50px;
+        font-size: 16px;
+        color: rgb(73, 62, 62);
+        padding-top: 44px;
+      }
+      .usnmain {
+        display: flex;
+        height: 40px;
+        margin-bottom: 15px;
+      }
+      .mail {
+        position: relative;
+        padding-left: 60px;
+        padding-top: 15px;
+        height: 25px;
+        z-index: 2;
+      }
+      .usn {
+        margin-left: 50px;
+        height: 52px;
+        width: 329px;
+        font-size: 20px;
+        padding-left: 40px;
+        position: absolute;
+        z-index: 1;
+      }
+      .passwdtext {
+        padding-left: 50px;
+        font-size: 16px;
+        color: rgb(73, 62, 62);
+        padding-top: 25px;
+      }
+      .passwd {
+        display: flex;
+        padding-left: 50px;
+      }
+      .loginbutton {
+        margin-left: 50px;
+        margin-top: 30px;
+        height: 40px;
+        width: 187px;
+        font-size: 14px;
+        color: rgb(186, 35, 35);
+        padding-top: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body style="border: 0px; margin: 0px">
+    <div class="main">
+      <div class="leftsection">
+        <div class="imgandsit">
+          <div>
+            <img class="logoimg" src="th.jpeg" />
+          </div>
+          <div class="sit">
+            <div style="padding-bottom: 10px">
+              Siddaganga Institute of Technology,
+            </div>
+            <div>Tumakuru - 572103</div>
+          </div>
+        </div>
+        <div class="welcome">Welcome to SIT</div>
+        <div class="noticeboard">
+          <div class="noticehead">Notice Board</div>
+          <div class="notice">
+            <div style="padding-left: 45px; margin-top: 25px">
+              III semester MBA : Date of announcement of results - 13/06/2023
+            </div>
+            <div style="padding-left: 30px; padding-bottom: 0px">
+              i. Last date to apply for photo copy 15/06/2023
+            </div>
+            <div
+              style="padding-left: 30px; padding-top: 7px; padding-bottom: 7px"
+            >
+              ii. issue of photo copy of answer scripts from 16/06/2023
+            </div>
+            <div style="padding-left: 30px; padding-top: 0px">
+              iii. Last date to apply for Extended Evaluation 19/06/2023
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rightsection">
+        <div class="click">
+          <div style="padding-bottom: 5px">
+            Click Here to access even term 2023
+          </div>
+          <div>Click Here to access special supply term 2023</div>
+        </div>
+        <div class="loginfull">
+          <div class="login">Login to Your Account</div>
+          <div class="username">Username</div>
+          <div class="usnmain">
+            <img class="mail" src="mail.jpg" />
+            <input class="usn" type="text" placeholder="USN" />
+          </div>
+          <div class="passwdtext">Password</div>
+          <div class="passwd">
+            <div>
+              <input
+                style="
+                  width: 111px;
+                  height: 36px;
+                  font-size: 16px;
+                  padding-left: 10px;
+                  position: absolute;
+                "
+                type="text "
+                placeholder="Day"
+              />
+              <img
+                style="
+                  width: 13px;
+                  position: relative;
+                  padding-top: 13px;
+                  padding-left: 106px;
+                  padding-right: 5px;
+                "
+                src="arrow.jpg"
+              />
+            </div>
+            <div>
+              <input
+                style="
+                  width: 111px;
+                  height: 36px;
+                  font-size: 16px;
+                  padding-left: 10px;
+                  position: absolute;
+                "
+                type="text"
+                placeholder="Month"
+              />
+              <img
+                style="
+                  width: 13px;
+                  position: relative;
+                  padding-top: 13px;
+                  padding-left: 106px;
+                  padding-right: 5px;
+                "
+                src="arrow.jpg"
+              />
+            </div>
+            <div>
+              <input
+                style="
+                  width: 111px;
+                  height: 36px;
+                  font-size: 16px;
+                  padding-left: 10px;
+                  position: absolute;
+                "
+                type="text"
+                placeholder="Year"
+              />
+              <img
+                style="
+                  width: 13px;
+                  position: relative;
+                  padding-top: 13px;
+                  padding-left: 106px;
+                  padding-right: 5px;
+                "
+                src="arrow.jpg"
+              />
+            </div>
+          </div>
+          <div>
+            <button class="loginbutton">LOGIN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
